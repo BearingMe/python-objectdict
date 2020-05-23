@@ -1,3 +1,6 @@
+import json
+
+
 class object_dict(dict):
 	def __setattr__(self, name, value):
 		if callable(value):
